@@ -13,6 +13,7 @@
 		1CD2565826DC233100BF50F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD2565626DC233100BF50F5 /* Main.storyboard */; };
 		1CD2565A26DC233400BF50F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD2565926DC233400BF50F5 /* Assets.xcassets */; };
 		1CD2565D26DC233400BF50F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD2565B26DC233400BF50F5 /* LaunchScreen.storyboard */; };
+		1CD2566526DC274600BF50F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD2566426DC274600BF50F5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1CD2565926DC233400BF50F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CD2565C26DC233400BF50F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CD2565E26DC233400BF50F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD2566426DC274600BF50F5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1CD2565026DC233100BF50F5 /* AppDelegate.swift */,
 				1CD2565226DC233100BF50F5 /* SceneDelegate.swift */,
 				1CD2565426DC233100BF50F5 /* ViewController.swift */,
+				1CD2566426DC274600BF50F5 /* DetailViewController.swift */,
 				1CD2565626DC233100BF50F5 /* Main.storyboard */,
 				1CD2565926DC233400BF50F5 /* Assets.xcassets */,
 				1CD2565B26DC233400BF50F5 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				1CD2565526DC233100BF50F5 /* ViewController.swift in Sources */,
 				1CD2565126DC233100BF50F5 /* AppDelegate.swift in Sources */,
 				1CD2565326DC233100BF50F5 /* SceneDelegate.swift in Sources */,
+				1CD2566526DC274600BF50F5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sawwaty.TrackListInContainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sawwaty.TrackListInContainer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
